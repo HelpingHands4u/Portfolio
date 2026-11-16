@@ -28,3 +28,6 @@ use the editor.
   own key and store it in Secrets.
 - **Secrets.** Lovable manages them. Do not put secret values in the repo.
 <!-- LOVABLE:END -->
+
+## Portfolio architecture
+- Keep the public portfolio as one TanStack index page, and store contact submissions through a server-validated function with anonymous insert-only row policies; this keeps recruiter navigation simple while protecting submitted messages.
