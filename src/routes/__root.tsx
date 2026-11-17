@@ -86,7 +86,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
         name: "description",
         content: "Mohammad Shahinuddin Molla, a computer science student exploring cybersecurity, data science, and AI.",
       },
-      { name: "author", content: "Lovable" },
+      { name: "author", content: "Mohammad Shahinuddin Molla" },
       { property: "og:title", content: "Mohammad Shahinuddin — Portfolio" },
       {
         property: "og:description",
