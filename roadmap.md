@@ -1,3 +1,3 @@
-- [ ] Build a responsive, recruiter-focused Shahin portfolio with theme toggle, project links, contact and resume download.
-- [ ] Store validated contact submissions securely and enable owner email delivery when the sending domain is ready.
-- [ ] Verify the portfolio, contact flow, build, and tests; commit the finished changes.
+- [x] Build the responsive portfolio with theme toggle, verified project links, contact form, and resume download.
+- [x] Store validated contact messages securely; email notifications await sender-domain setup.
+- [x] Verify desktop and mobile flows, contact delivery to storage, build, and tests; commit the finished changes.

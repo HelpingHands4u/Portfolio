@@ -661,12 +661,12 @@ function PortfolioPage() {
                   maxLength={100}
                   required
                   className="portfolio-input min-h-11"
-                  aria-invalid={Boolean(fieldErrors.name)}
-                  aria-describedby={fieldErrors.name ? "contact-name-error" : undefined}
+                  aria-invalid={Boolean(fieldErrors["name"])}
+                  aria-describedby={fieldErrors["name"] ? "contact-name-error" : undefined}
                   disabled={formStatus === "sending"}
                 />
-                {fieldErrors.name && (
-                  <p id="contact-name-error" className="text-sm text-destructive">{fieldErrors.name}</p>
+                {fieldErrors["name"] && (
+                  <p id="contact-name-error" className="text-sm text-destructive">{fieldErrors["name"]}</p>
                 )}
               </div>
               <div className="space-y-2">
@@ -679,12 +679,12 @@ function PortfolioPage() {
                   maxLength={254}
                   required
                   className="portfolio-input min-h-11"
-                  aria-invalid={Boolean(fieldErrors.email)}
-                  aria-describedby={fieldErrors.email ? "contact-email-error" : undefined}
+                  aria-invalid={Boolean(fieldErrors["email"])}
+                  aria-describedby={fieldErrors["email"] ? "contact-email-error" : undefined}
                   disabled={formStatus === "sending"}
                 />
-                {fieldErrors.email && (
-                  <p id="contact-email-error" className="text-sm text-destructive">{fieldErrors.email}</p>
+                {fieldErrors["email"] && (
+                  <p id="contact-email-error" className="text-sm text-destructive">{fieldErrors["email"]}</p>
                 )}
               </div>
               <div className="space-y-2">
@@ -697,13 +697,13 @@ function PortfolioPage() {
                   maxLength={3000}
                   required
                   className="portfolio-input min-h-36 resize-y"
-                  aria-invalid={Boolean(fieldErrors.message)}
-                  aria-describedby={fieldErrors.message ? "contact-message-error" : undefined}
+                  aria-invalid={Boolean(fieldErrors["message"])}
+                  aria-describedby={fieldErrors["message"] ? "contact-message-error" : undefined}
                   disabled={formStatus === "sending"}
                 />
                 <div className="flex justify-between gap-3 text-xs text-muted-foreground">
-                  {fieldErrors.message ? (
-                    <p id="contact-message-error" className="text-sm text-destructive">{fieldErrors.message}</p>
+                  {fieldErrors["message"] ? (
+                    <p id="contact-message-error" className="text-sm text-destructive">{fieldErrors["message"]}</p>
                   ) : (
                     <span>At least 10 characters</span>
                   )}
